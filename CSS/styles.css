@@ -16,7 +16,7 @@ nav {
     justify-content: center;
     padding: 1rem;
     position: relative;
-    border-style: outset;
+    border-bottom: 3px solid black;
     border-color: black;
 }
 
@@ -83,5 +83,84 @@ nav ul {
     
    
   }
+
+  
+  #about h2 {
+    font-size: 40px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+     margin: 20px 0; 
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+.content-row img {
+    width: 30%; 
+    height: auto;
+}
+
+.tall-image {
+    height: 120%; 
+}
+
+.aboutustext{
+    flex-direction: column;
+    max-width: 40rem;
+    font-size: 20px;
+}
+
+.aboutustext1{
+    flex-direction: column;
+    max-width: 30rem;
+    font-size: 25px;
+}
+#about h2, #products h2 {
+    font-size: 40px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin: 20px 0; /* Adjust as needed */
+}
+
+.content-row, .grid-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* To make the images and paragraph align at the top */
+}
+
+.grid-container {
+    flex-wrap: wrap; /* Enable grid items to wrap to the next line */
+}
+
+.product-card {
+    flex-basis: 30%; /* Set width of product card */
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-title {
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.5rem;
+}
+
+.buttons-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
   
 
