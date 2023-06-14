@@ -1,3 +1,49 @@
-h1 {
-    color: red;
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Segoe UI";
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    position: relative;
+    border-style: outset;
+    border-color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    position: absolute;
+    left: 1rem;
+}
+
+.brand {
+    text-align: center;
+}
+
+
+
+
+.search-bar {
+    background-image: url('./Assets/1200px-Google_Magnifying_Glass.svg.png');
+    position: absolute;
+    right: 5rem;
+}
+
+
+
+.cart {
+    position: absolute;
+    right: 1rem;
 }
